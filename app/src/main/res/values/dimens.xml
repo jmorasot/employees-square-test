@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inset_size">40dp</dimen>
+    <dimen name="view_fit_constraints">0dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="employee_avatar_size">64dp</dimen>
+
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+
+    <dimen name="text_size_title">20sp</dimen>
+</resources>

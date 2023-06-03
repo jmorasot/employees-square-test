@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_employee_list"
+    app:startDestination="@id/employeeListFragment">
+
+    <fragment
+        android:id="@+id/employeeListFragment"
+        android:label="@string/label_employee_list_fragment"
+        android:name="com.juanmora.square.employeelist.features.home.view.fragments.EmployeeListFragment"
+        tools:layout="@layout/fragment_employee_list">
+        <action
+            android:id="@+id/actionEmployeeListFragmentToEmployeeDetailsFragment"
+            app:destination="@+id/employeeDetailsFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/employeeDetailsFragment"
+        android:label="@string/label_employee_details_fragment"
+        android:name="com.juanmora.square.employeelist.features.employees.view.fragments.EmployeeDetailsFragment"/>
+
+</navigation>

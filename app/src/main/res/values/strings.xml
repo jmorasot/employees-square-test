@@ -1,0 +1,9 @@
+<resources>
+    <string name="label_employee_list_fragment">listFragment</string>
+    <string name="label_employee_details_fragment">detailsFragment</string>
+
+    <string name="fr_employees_title">Employees</string>
+    <string name="fr_employees_empty_list">No elements were found</string>
+    <string name="fr_employees_error">An error occurred when trying to fetch the info</string>
+    <string name="fr_employees_unknown">We cannot fetch the employees right now, please retry later</string>
+</resources>
